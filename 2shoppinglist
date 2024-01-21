@@ -29,11 +29,11 @@
                 $scope.addItem = function () {
                     if ($scope.newItem) {
                         $scope.shoppingItems.push($scope.newItem);
-                        $scope.newItem = ''; // Clear the input field after adding
+                        $scope.newItem = '';
                     }
                 };
 
-                // Function to remove an item
+   
                 $scope.removeItem = function (index) {
                     $scope.shoppingItems.splice(index, 1);
                 };
